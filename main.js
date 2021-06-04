@@ -48,20 +48,20 @@ function reset(){
 //init slider
 function slideStater(){
     reset()
-    slider[0].style.display='grid'
+    slider[0].style.display='flex'
 }
 
 //show prev
 function slidePrev(){
     reset()
-    slider[current-1].style.display='grid'
+    slider[current-1].style.display='flex'
     current--
 }
 
 //show next
 function slideNext(){
     reset()
-    slider[current+1].style.display='grid'
+    slider[current+1].style.display='flex'
     current++
 }
 
